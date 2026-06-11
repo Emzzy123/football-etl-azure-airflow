@@ -1,0 +1,6 @@
+pandas
+requests
+beautifulsoup4
+geopy
+adlfs
+apache-airflow-providers-microsoft-azure
