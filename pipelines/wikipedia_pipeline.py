@@ -12,22 +12,33 @@ def get_wikipedia_page(url):
 
     print("Getting wikipedia page...", url)
 
-    try:
-        response = requests.get(url, timeout=10)
-        response.raise_for_status()  # check if the request is successful
+    headers = {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/120.0 Safari/537.36"
+    }
 
+    try:
+        response = requests.get(url, headers=headers, timeout=10)
+        response.raise_for_status()
         return response.text
+
     except requests.RequestException as e:
-        print(f"An error occured: {e}")
+        raise RuntimeError(f"Failed to get Wikipedia page: {e}")
 
 
 def get_wikipedia_data(html):
     from bs4 import BeautifulSoup
 
-    soup = BeautifulSoup(html, 'html.parser')
-    table = soup.find_all("table", {"class": "wikitable sortable"})[0]
+    if not html:
+        raise ValueError("No HTML content received from Wikipedia")
 
-    table_rows = table.find_all('tr')
+    soup = BeautifulSoup(html, "html.parser")
+
+    table = soup.select_one("table.wikitable.sortable")
+
+    if table is None:
+        raise ValueError("No table found with class 'wikitable sortable'")
+
+    table_rows = table.find_all("tr")
 
     return table_rows
 
@@ -88,14 +99,14 @@ def transform_wikipedia_data(**kwargs):
     data = json.loads(data)
 
     stadiums_df = pd.DataFrame(data)
-    stadiums_df['location'] = stadiums_df.apply(lambda x: get_lat_long(x['country'], x['stadium']), axis=1)
+    stadiums_df['location'] = None
     stadiums_df['images'] = stadiums_df['images'].apply(lambda x: x if x not in ['NO_IMAGE', '', None] else NO_IMAGE)
     stadiums_df['capacity'] = stadiums_df['capacity'].astype(int)
 
     # handle the duplicates
-    duplicates = stadiums_df[stadiums_df.duplicated(['location'])]
-    duplicates['location'] = duplicates.apply(lambda x: get_lat_long(x['country'], x['city']), axis=1)
-    stadiums_df.update(duplicates)
+    # duplicates = stadiums_df[stadiums_df.duplicated(['location'])]
+    # duplicates['location'] = duplicates.apply(lambda x: get_lat_long(x['country'], x['city']), axis=1)
+    # stadiums_df.update(duplicates)
 
     # push to xcom
     kwargs['ti'].xcom_push(key='rows', value=stadiums_df.to_json())
@@ -114,8 +125,13 @@ def write_wikipedia_data(**kwargs):
                  + "_" + str(datetime.now().time()).replace(":", "_") + '.csv')
 
     # data.to_csv('data/' + file_name, index=False)
-    data.to_csv('abfs://footballdataeng@footballdataeng.dfs.core.windows.net/data/' + file_name,
-                storage_options={
-                    'account_key': os.getenv("AZURE_STORAGE_KEY")
-                }, index=False)
+    # data.to_csv('abfs://footballdataeng@footballdataeng.dfs.core.windows.net/data/' + file_name,
+    #             storage_options={
+    #                 'account_key': os.getenv("AZURE_STORAGE_KEY")
+    #             }, index=False)
     
+    os.makedirs('/opt/airflow/data', exist_ok=True)
+
+    data.to_csv('/opt/airflow/data/' + file_name, index=False)
+
+    return "OK"
