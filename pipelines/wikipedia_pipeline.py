@@ -1,8 +1,10 @@
 import json
 import os
+import time
 
 import pandas as pd
 from geopy import Nominatim
+from geopy.exc import GeocoderTimedOut, GeocoderUnavailable
 
 NO_IMAGE = 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/No-image-available.png/480px-No-image-available.png'
 
@@ -83,14 +85,63 @@ def extract_wikipedia_data(**kwargs):
     return "OK"
 
 
-def get_lat_long(country, city):
-    geolocator = Nominatim(user_agent='geoapiExercises')
-    location = geolocator.geocode(f'{city}, {country}')
+# pipelines/wikipedia_pipeline.py
 
-    if location:
-        return location.latitude, location.longitude
+def load_geocode_cache():
+    cache_path = "/opt/airflow/data/geocode_cache.json"
 
-    return None
+    if os.path.exists(cache_path):
+        with open(cache_path, "r", encoding="utf-8") as file:
+            return json.load(file)
+
+    return {}
+
+
+def save_geocode_cache(cache):
+    cache_path = "/opt/airflow/data/geocode_cache.json"
+
+    with open(cache_path, "w", encoding="utf-8") as file:
+        json.dump(cache, file, indent=2)
+
+
+def get_lat_long(country, city, cache):
+    location_key = f"{city}, {country}".lower().strip()
+
+    if location_key in cache:
+        cached_value = cache[location_key]
+
+        if cached_value.get("latitude") is not None and cached_value.get("longitude") is not None:
+            return cached_value["latitude"], cached_value["longitude"]
+
+    geolocator = Nominatim(
+        user_agent="football-data-engineering-project",
+        timeout=20
+    )
+
+    try:
+        location = geolocator.geocode(f"{city}, {country}")
+
+        time.sleep(1)
+
+        if location:
+            latitude = location.latitude
+            longitude = location.longitude
+
+            cache[location_key] = {
+                "latitude": latitude,
+                "longitude": longitude
+            }
+
+            save_geocode_cache(cache)
+
+            return latitude, longitude
+
+        print(f"No geocode result found for {city}, {country}")
+        return None, None
+
+    except Exception as error:
+        print(f"Geocoding failed for {city}, {country}: {error}")
+        return None, None
 
 
 def transform_wikipedia_data(**kwargs):
@@ -99,16 +150,20 @@ def transform_wikipedia_data(**kwargs):
     data = json.loads(data)
 
     stadiums_df = pd.DataFrame(data)
-    stadiums_df['location'] = None
-    stadiums_df['images'] = stadiums_df['images'].apply(lambda x: x if x not in ['NO_IMAGE', '', None] else NO_IMAGE)
+
+    stadiums_df['images'] = stadiums_df['images'].apply(
+        lambda x: x if x not in ['NO_IMAGE', '', None] else NO_IMAGE
+    )
+
     stadiums_df['capacity'] = stadiums_df['capacity'].astype(int)
 
-    # handle the duplicates
-    # duplicates = stadiums_df[stadiums_df.duplicated(['location'])]
-    # duplicates['location'] = duplicates.apply(lambda x: get_lat_long(x['country'], x['city']), axis=1)
-    # stadiums_df.update(duplicates)
+    cache = load_geocode_cache()
 
-    # push to xcom
+    stadiums_df[['latitude', 'longitude']] = stadiums_df.apply(
+        lambda x: pd.Series(get_lat_long(x['country'], x['city'], cache)),
+        axis=1
+    )
+
     kwargs['ti'].xcom_push(key='rows', value=stadiums_df.to_json())
 
     return "OK"

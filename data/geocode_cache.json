@@ -1,0 +1,1226 @@
+{
+  "pyongyang, north korea": {
+    "latitude": 39.0167979,
+    "longitude": 125.7473609
+  },
+  "barcelona, catalonia, spain": {
+    "latitude": 41.3825802,
+    "longitude": 2.177073
+  },
+  "johannesburg, gauteng, south africa": {
+    "latitude": -26.205,
+    "longitude": 28.049722
+  },
+  "new administrative capital, egypt": {
+    "latitude": 30.023829,
+    "longitude": 31.7549459
+  },
+  "dallas, texas, united states": {
+    "latitude": 32.7762719,
+    "longitude": -96.7968559
+  },
+  "london, england, england": {
+    "latitude": 51.5074456,
+    "longitude": -0.1277653
+  },
+  "lusail, qatar": {
+    "latitude": 25.4228888,
+    "longitude": 51.5197163
+  },
+  "mexico city, mexico": {
+    "latitude": 19.3207722,
+    "longitude": -99.1514678
+  },
+  "kuala lumpur, malaysia": {
+    "latitude": 3.1516964,
+    "longitude": 101.6942371
+  },
+  "alexandria, egypt": {
+    "latitude": 31.1991806,
+    "longitude": 29.8951716
+  },
+  "buenos aires, argentina": {
+    "latitude": -34.6095579,
+    "longitude": -58.3887904
+  },
+  "kolkata, india": {
+    "latitude": 22.5726459,
+    "longitude": 88.3638953
+  },
+  "sydney, new south wales, australia": {
+    "latitude": -33.8698439,
+    "longitude": 151.2082848
+  },
+  "madrid, spain": {
+    "latitude": 40.416782,
+    "longitude": -3.703507
+  },
+  "dublin, ireland": {
+    "latitude": 53.3493795,
+    "longitude": -6.2605593
+  },
+  "jakarta, indonesia": {
+    "latitude": -6.1754049,
+    "longitude": 106.827168
+  },
+  "dortmund, germany": {
+    "latitude": 51.5142273,
+    "longitude": 7.4652789
+  },
+  "saint-denis, france": {
+    "latitude": 48.9383732,
+    "longitude": 2.3627508
+  },
+  "moscow, russia": {
+    "latitude": 55.625578,
+    "longitude": 37.6063916
+  },
+  "shah alam, selangor, malaysia": {
+    "latitude": 3.0739429,
+    "longitude": 101.5185278
+  },
+  "lima, peru": {
+    "latitude": -12.0459808,
+    "longitude": -77.0305912
+  },
+  "milan, lombardy, italy": {
+    "latitude": 45.4641943,
+    "longitude": 9.1896346
+  },
+  "guangzhou, guangdong, china": {
+    "latitude": 23.1288454,
+    "longitude": 113.2590064
+  },
+  "hangzhou, zhejiang, china": {
+    "latitude": 30.2489634,
+    "longitude": 120.2052342
+  },
+  "kinshasa, dr congo": {
+    "latitude": -4.3196982,
+    "longitude": 15.3424196
+  },
+  "beijing, china": {
+    "latitude": 39.9057136,
+    "longitude": 116.3912972
+  },
+  "rio de janeiro, rio de janeiro, brazil": {
+    "latitude": -22.9110137,
+    "longitude": -43.2093727
+  },
+  "tehran, iran": {
+    "latitude": 35.6892523,
+    "longitude": 51.3896004
+  },
+  "istanbul, turkey": {
+    "latitude": 41.006381,
+    "longitude": 28.9758715
+  },
+  "tangier, morocco": {
+    "latitude": 35.7696302,
+    "longitude": -5.8033522
+  },
+  "munich, germany": {
+    "latitude": 48.1371079,
+    "longitude": 11.5753822
+  },
+  "isfahan, iran": {
+    "latitude": 32.6707877,
+    "longitude": 51.6650002
+  },
+  "charlotte, north carolina, united states": {
+    "latitude": 35.2272086,
+    "longitude": -80.8430827
+  },
+  "cardiff, wales": {
+    "latitude": 51.4816546,
+    "longitude": -3.1791934
+  },
+  "berlin, germany": {
+    "latitude": 52.5173885,
+    "longitude": 13.3951309
+  },
+  "cairo, egypt": {
+    "latitude": 30.0443879,
+    "longitude": 31.2357257
+  },
+  "bras\u00edlia, distrito federal, brazil": {
+    "latitude": -15.7939869,
+    "longitude": -47.8828
+  },
+  "rome, lazio, italy": {
+    "latitude": 41.8933203,
+    "longitude": 12.4829321
+  },
+  "yokohama, kanagawa, japan": {
+    "latitude": 35.4503381,
+    "longitude": 139.6343802
+  },
+  "shanghai, china": {
+    "latitude": 31.2312707,
+    "longitude": 121.4700152
+  },
+  "atlanta, georgia, united states": {
+    "latitude": 33.7544657,
+    "longitude": -84.3898151
+  },
+  "kyiv, ukraine": {
+    "latitude": 50.4500336,
+    "longitude": 30.5241361
+  },
+  "valencia, spain": {
+    "latitude": 39.4697065,
+    "longitude": -0.3763353
+  },
+  "seville, spain": {
+    "latitude": 37.3886303,
+    "longitude": -5.9953403
+  },
+  "seoul, south korea": {
+    "latitude": 37.5666791,
+    "longitude": 126.9782914
+  },
+  "baku, azerbaijan": {
+    "latitude": 40.3755885,
+    "longitude": 49.8328009
+  },
+  "marousi, attica, greece": {
+    "latitude": 38.0546653,
+    "longitude": 23.8081533
+  },
+  "rabat, morocco": {
+    "latitude": 34.0218454,
+    "longitude": -6.8408929
+  },
+  "seattle, washington, united states": {
+    "latitude": 47.6038321,
+    "longitude": -122.330062
+  },
+  "foxborough, massachusetts, united states": {
+    "latitude": 42.0653768,
+    "longitude": -71.2478308
+  },
+  "jeddah, saudi arabia": {
+    "latitude": 21.5504432,
+    "longitude": 39.1742363
+  },
+  "saint petersburg, russia": {
+    "latitude": 59.9606739,
+    "longitude": 30.1586551
+  },
+  "lisbon, portugal": {
+    "latitude": 38.7077507,
+    "longitude": -9.1365919
+  },
+  "tokyo, japan": {
+    "latitude": 35.6768601,
+    "longitude": 139.7638947
+  },
+  "marseille, france": {
+    "latitude": 43.2963986,
+    "longitude": 5.3777888
+  },
+  "budapest, hungary": {
+    "latitude": 47.4978789,
+    "longitude": 19.0402383
+  },
+  "edinburgh, scotland": {
+    "latitude": 55.9533456,
+    "longitude": -3.1883749
+  },
+  "casablanca, morocco": {
+    "latitude": 33.5945144,
+    "longitude": -7.6200284
+  },
+  "s\u00e3o paulo, s\u00e3o paulo, brazil": {
+    "latitude": -23.5506507,
+    "longitude": -46.6333824
+  },
+  "tabriz, iran": {
+    "latitude": 38.0738612,
+    "longitude": 46.2978789
+  },
+  "daegu, south korea": {
+    "latitude": 35.8713,
+    "longitude": 128.6018
+  },
+  "london, england": {
+    "latitude": 51.5074456,
+    "longitude": -0.1277653
+  },
+  "montreal, quebec, canada": {
+    "latitude": 45.5031824,
+    "longitude": -73.5698065
+  },
+  "basra, iraq": {
+    "latitude": 30.4952371,
+    "longitude": 47.8090981
+  },
+  "algiers, algeria": {
+    "latitude": 36.7729333,
+    "longitude": 3.0588445
+  },
+  "fortaleza, cear\u00e1, brazil": {
+    "latitude": -3.7932167,
+    "longitude": -38.5280359
+  },
+  "saitama, japan": {
+    "latitude": 35.9754168,
+    "longitude": 139.4160114
+  },
+  "dalian, china": {
+    "latitude": 39.740278,
+    "longitude": 122.255833
+  },
+  "oakland, california, united states": {
+    "latitude": 37.8044557,
+    "longitude": -122.271356
+  },
+  "gelsenkirchen, germany": {
+    "latitude": 51.5110321,
+    "longitude": 7.0960124
+  },
+  "qingdao, shandong, china": {
+    "latitude": 36.0663249,
+    "longitude": 120.3777659
+  },
+  "belo horizonte, minas gerais, brazil": {
+    "latitude": -19.9227318,
+    "longitude": -43.9450948
+  },
+  "riyadh, saudi arabia": {
+    "latitude": 24.638916,
+    "longitude": 46.7160104
+  },
+  "chicago, illinois, united states": {
+    "latitude": 41.8755616,
+    "longitude": -87.6244212
+  },
+  "nanjing, jiangsu, china": {
+    "latitude": 32.0438284,
+    "longitude": 118.7788631
+  },
+  "liverpool, england, england": {
+    "latitude": 53.3933411,
+    "longitude": -2.9166389
+  },
+  "abuja, nigeria": {
+    "latitude": 9.0643305,
+    "longitude": 7.4892974
+  },
+  "stuttgart, germany": {
+    "latitude": 48.7784485,
+    "longitude": 9.1800132
+  },
+  "glasgow, scotland": {
+    "latitude": 55.861155,
+    "longitude": -4.2501687
+  },
+  "arequipa, peru": {
+    "latitude": -16.3988667,
+    "longitude": -71.5369607
+  },
+  "shenzhen, guangdong, china": {
+    "latitude": 22.5445741,
+    "longitude": 114.0545429
+  },
+  "montevideo, uruguay": {
+    "latitude": -34.9058916,
+    "longitude": -56.1913095
+  },
+  "recife, pernambuco, brazil": {
+    "latitude": -8.0584933,
+    "longitude": -34.8848193
+  },
+  "dakar, senegal": {
+    "latitude": 14.693425,
+    "longitude": -17.447938
+  },
+  "al-khor, qatar": {
+    "latitude": 25.7567822,
+    "longitude": 51.3269839
+  },
+  "dar es-salaam, tanzania": {
+    "latitude": -6.8160837,
+    "longitude": 39.2803583
+  },
+  "hefei, anhui, china": {
+    "latitude": 31.8665676,
+    "longitude": 117.281428
+  },
+  "kuwait city, kuwait": {
+    "latitude": 29.3796532,
+    "longitude": 47.9734174
+  },
+  "tunis, tunisia": {
+    "latitude": 36.8002068,
+    "longitude": 10.1857757
+  },
+  "new delhi, india": {
+    "latitude": 28.6138954,
+    "longitude": 77.2090057
+  },
+  "mogadishu, somalia": {
+    "latitude": 2.0349312,
+    "longitude": 45.3419183
+  },
+  "lusaka, zambia": {
+    "latitude": -15.4163395,
+    "longitude": 28.2818414
+  },
+  "mabopane, gauteng, south africa": {
+    "latitude": -25.5080556,
+    "longitude": 28.0680556
+  },
+  "phnom penh, cambodia": {
+    "latitude": 11.5730391,
+    "longitude": 104.857807
+  },
+  "shenyang, liaoning, china": {
+    "latitude": 41.8026095,
+    "longitude": 123.4279105
+  },
+  "perth, western australia, australia": {
+    "latitude": -31.9558967,
+    "longitude": 115.8605784
+  },
+  "harare, zimbabwe": {
+    "latitude": -17.8567035,
+    "longitude": 31.0601584
+  },
+  "guayaquil, ecuador": {
+    "latitude": -2.1900572,
+    "longitude": -79.8868669
+  },
+  "d\u00e9cines-charpieu, france": {
+    "latitude": 45.773606,
+    "longitude": 4.9633314
+  },
+  "chongqing, china": {
+    "latitude": 30.05518,
+    "longitude": 107.8748712
+  },
+  "warsaw, poland": {
+    "latitude": 52.2333742,
+    "longitude": 21.0711489
+  },
+  "bari, apulia, italy": {
+    "latitude": 41.1257843,
+    "longitude": 16.8620293
+  },
+  "frankfurt, germany": {
+    "latitude": 50.1106444,
+    "longitude": 8.6820917
+  },
+  "hamburg, germany": {
+    "latitude": 53.5501721,
+    "longitude": 10.0013165
+  },
+  "c\u00f3rdoba, argentina": {
+    "latitude": -31.4166867,
+    "longitude": -64.1834193
+  },
+  "jinan, shandong, china": {
+    "latitude": 36.6519754,
+    "longitude": 117.1138479
+  },
+  "guadalajara, jalisco, mexico": {
+    "latitude": 20.6720375,
+    "longitude": -103.338396
+  },
+  "edmonton, alberta, canada": {
+    "latitude": 53.5462055,
+    "longitude": -113.491241
+  },
+  "annaba, algeria": {
+    "latitude": 36.8982165,
+    "longitude": 7.7549272
+  },
+  "avellaneda, argentina": {
+    "latitude": -34.6648394,
+    "longitude": -58.3628061
+  },
+  "porto alegre, rio grande do sul, brazil": {
+    "latitude": -30.0324999,
+    "longitude": -51.2303767
+  },
+  "bucharest, romania": {
+    "latitude": 44.4361414,
+    "longitude": 26.102684
+  },
+  "belgrade, serbia": {
+    "latitude": 44.8153318,
+    "longitude": 20.4456588
+  },
+  "chorz\u00f3w, poland": {
+    "latitude": 50.2978791,
+    "longitude": 18.9544466
+  },
+  "nairobi, kenya": {
+    "latitude": -1.2890006,
+    "longitude": 36.8172812
+  },
+  "singapore, singapore": {
+    "latitude": 1.2899175,
+    "longitude": 103.8519072
+  },
+  "kaohsiung, taiwan": {
+    "latitude": 22.6203348,
+    "longitude": 120.3120375
+  },
+  "changsha, hunan, china": {
+    "latitude": 28.1450774,
+    "longitude": 113.2384362
+  },
+  "cape town, western cape, south africa": {
+    "latitude": -33.9288301,
+    "longitude": 18.4172197
+  },
+  "plovdiv, bulgaria": {
+    "latitude": 42.1418541,
+    "longitude": 24.7499297
+  },
+  "amsterdam, netherlands": {
+    "latitude": 52.3730796,
+    "longitude": 4.8924534
+  },
+  "naples, italy": {
+    "latitude": 40.8358846,
+    "longitude": 14.2487679
+  },
+  "tianjin, china": {
+    "latitude": 39.3032619,
+    "longitude": 117.4163641
+  },
+  "d\u00fcsseldorf, germany": {
+    "latitude": 51.2254018,
+    "longitude": 6.7763137
+  },
+  "tbilisi, georgia": {
+    "latitude": 41.6934591,
+    "longitude": 44.8014495
+  },
+  "wuhan, hubei, china": {
+    "latitude": 30.578891,
+    "longitude": 114.2921197
+  },
+  "vancouver, british columbia, canada": {
+    "latitude": 49.2608724,
+    "longitude": -123.113952
+  },
+  "yerevan, armenia": {
+    "latitude": 40.1777112,
+    "longitude": 44.5126233
+  },
+  "little rock, arkansas, united states": {
+    "latitude": 34.7465071,
+    "longitude": -92.2896267
+  },
+  "m\u00f6nchen\u00adgladbach, germany": {
+    "latitude": 51.1947131,
+    "longitude": 6.4353792
+  },
+  "durban, kwazulu-natal, south africa": {
+    "latitude": -29.861825,
+    "longitude": 31.009909
+  },
+  "busan, south korea": {
+    "latitude": 35.1799528,
+    "longitude": 129.0752365
+  },
+  "bel\u00e9m, par\u00e1, brazil": {
+    "latitude": -1.45056,
+    "longitude": -48.4682453
+  },
+  "la plata, argentina": {
+    "latitude": -34.9206797,
+    "longitude": -57.9537638
+  },
+  "adelaide, south australia, australia": {
+    "latitude": -34.9281805,
+    "longitude": 138.5999312
+  },
+  "melbourne, victoria, australia": {
+    "latitude": -37.8142454,
+    "longitude": 144.9631732
+  },
+  "uberl\u00e2ndia, minas gerais, brazil": {
+    "latitude": -18.9188041,
+    "longitude": -48.2767837
+  },
+  "bilbao, spain": {
+    "latitude": 43.2630018,
+    "longitude": -2.9350039
+  },
+  "aleppo, syria": {
+    "latitude": 36.19924,
+    "longitude": 37.1637253
+  },
+  "liverpool, england": {
+    "latitude": 53.3933411,
+    "longitude": -2.9166389
+  },
+  "brisbane, queensland, australia": {
+    "latitude": -27.4689623,
+    "longitude": 153.0235009
+  },
+  "newcastle upon tyne, north east, england": {
+    "latitude": 54.9738474,
+    "longitude": -1.6131572
+  },
+  "matur\u00edn, venezuela": {
+    "latitude": 9.7422774,
+    "longitude": -63.1888854
+  },
+  "pretoria, gauteng, south africa": {
+    "latitude": -25.7459277,
+    "longitude": 28.1879101
+  },
+  "guiyang, guizhou, china": {
+    "latitude": 26.5878031,
+    "longitude": 106.7086936
+  },
+  "hohhot, inner mongolia, china": {
+    "latitude": 40.8184528,
+    "longitude": 111.6601939
+  },
+  "bangkok, thailand": {
+    "latitude": 13.7524938,
+    "longitude": 100.4935089
+  },
+  "donetsk, ukraine": {
+    "latitude": 47.9212914,
+    "longitude": 37.7809825
+  },
+  "i\u0307zmir, turkey": {
+    "latitude": 38.4192537,
+    "longitude": 27.128469
+  },
+  "rotterdam, netherlands": {
+    "latitude": 51.9244424,
+    "longitude": 4.47775
+  },
+  "monterrey, mexico": {
+    "latitude": 25.6802019,
+    "longitude": -100.315258
+  },
+  "ahvaz, iran": {
+    "latitude": 31.3230637,
+    "longitude": 48.67932
+  },
+  "porto alegre. rio grande do sul, brazil": {
+    "latitude": -30.0340622,
+    "longitude": -51.1576233
+  },
+  "fukuroi, shizuoka, japan": {
+    "latitude": 34.7501492,
+    "longitude": 137.9246962
+  },
+  "vienna, austria": {
+    "latitude": 48.2083537,
+    "longitude": 16.3725042
+  },
+  "tizi ouzou, algeria": {
+    "latitude": 36.7137843,
+    "longitude": 4.0493919
+  },
+  "puebla, mexico": {
+    "latitude": 18.833333,
+    "longitude": -98.0
+  },
+  "chengdu, china": {
+    "latitude": 30.659867,
+    "longitude": 104.063315
+  },
+  "solna, sweden": {
+    "latitude": 59.366667,
+    "longitude": 18.016667
+  },
+  "villeneuve-d'ascq, france": {
+    "latitude": 50.6193174,
+    "longitude": 3.1314002
+  },
+  "brussels, belgium": {
+    "latitude": 50.8467372,
+    "longitude": 4.352493
+  },
+  "xi'an, shaanxi, china": {
+    "latitude": 34.261004,
+    "longitude": 108.9423363
+  },
+  "chofu, tokyo, japan": {
+    "latitude": 35.6506036,
+    "longitude": 139.5407066
+  },
+  "porto, portugal": {
+    "latitude": 41.1502195,
+    "longitude": -8.6103497
+  },
+  "salvador, bahia, brazil": {
+    "latitude": -12.9822499,
+    "longitude": -38.4812772
+  },
+  "kowloon city, hong kong": {
+    "latitude": 22.3301595,
+    "longitude": 114.1899368
+  },
+  "sousse, tunisia": {
+    "latitude": 35.8288284,
+    "longitude": 10.6405254
+  },
+  "cologne, germany": {
+    "latitude": 50.938361,
+    "longitude": 6.959974
+  },
+  "harbin, heilongjiang, china": {
+    "latitude": 45.7593633,
+    "longitude": 126.6276177
+  },
+  "trivandrum, india": {
+    "latitude": 8.4882267,
+    "longitude": 76.947551
+  },
+  "kozhikode, india": {
+    "latitude": 11.2450558,
+    "longitude": 75.7754716
+  },
+  "lucknow, india": {
+    "latitude": 26.8381,
+    "longitude": 80.9346001
+  },
+  "auckland, new zealand": {
+    "latitude": -36.852095,
+    "longitude": 174.7631803
+  },
+  "luanda, angola": {
+    "latitude": -8.8272699,
+    "longitude": 13.2439512
+  },
+  "zhengzhou, henan, china": {
+    "latitude": 34.7472531,
+    "longitude": 113.619321
+  },
+  "nanchang, jiangxi, china": {
+    "latitude": 28.6472124,
+    "longitude": 116.0348483
+  },
+  "nuremberg, germany": {
+    "latitude": 49.453872,
+    "longitude": 11.077298
+  },
+  "tripoli, libya": {
+    "latitude": 32.896672,
+    "longitude": 13.1777923
+  },
+  "urumqi, xinjiang, china": {
+    "latitude": 43.8244074,
+    "longitude": 87.6139038
+  },
+  "hiroshima, japan": {
+    "latitude": 34.3917241,
+    "longitude": 132.4517589
+  },
+  "shiraz, iran": {
+    "latitude": 29.6060218,
+    "longitude": 52.5378041
+  },
+  "bamako, mali": {
+    "latitude": 12.6132656,
+    "longitude": -7.9847391
+  },
+  "kuala terengganu, malaysia": {
+    "latitude": 5.3296461,
+    "longitude": 103.1383265
+  },
+  "guadalajara, mexico": {
+    "latitude": 20.6720375,
+    "longitude": -103.338396
+  },
+  "kaiserslautern, germany": {
+    "latitude": 49.4432174,
+    "longitude": 7.7689951
+  },
+  "beirut, lebanon": {
+    "latitude": 33.8892265,
+    "longitude": 35.5025585
+  },
+  "rifu, miyagi, japan": {
+    "latitude": 38.3301406,
+    "longitude": 140.9753442
+  },
+  "incheon, south korea": {
+    "latitude": 37.456,
+    "longitude": 126.7052
+  },
+  "hanover, germany": {
+    "latitude": 52.3744779,
+    "longitude": 9.7385532
+  },
+  "paris, france": {
+    "latitude": 48.8588897,
+    "longitude": 2.320041
+  },
+  "sunderland, tyne and wear, england": {
+    "latitude": 54.9058512,
+    "longitude": -1.3828727
+  },
+  "santiago, chile": {
+    "latitude": -33.4376995,
+    "longitude": -70.6510671
+  },
+  "port elizabeth, eastern cape, south africa": {
+    "latitude": -33.9618598,
+    "longitude": 25.6186731
+  },
+  "islamabad, pakistan": {
+    "latitude": 33.6938118,
+    "longitude": 73.0651511
+  },
+  "arlington, texas, united states": {
+    "latitude": 32.7355816,
+    "longitude": -97.1071186
+  },
+  "bloemfontein, free state, south africa": {
+    "latitude": -29.116395,
+    "longitude": 26.215496
+  },
+  "osaka, japan": {
+    "latitude": 34.6937569,
+    "longitude": 135.5014539
+  },
+  "toronto, ontario, canada": {
+    "latitude": 43.6534817,
+    "longitude": -79.3839347
+  },
+  "new york city, new york, united states": {
+    "latitude": 40.7127281,
+    "longitude": -74.0060152
+  },
+  "florence, italy": {
+    "latitude": 43.7697955,
+    "longitude": 11.2556404
+  },
+  "birmingham, alabama, united states": {
+    "latitude": 33.5206824,
+    "longitude": -86.8024326
+  },
+  "lan\u00fas, argentina": {
+    "latitude": -34.7073871,
+    "longitude": -58.3905998
+  },
+  "barranquilla, colombia": {
+    "latitude": 10.9938599,
+    "longitude": -74.7926118
+  },
+  "s\u00e3o louren\u00e7o da mata, pernambuco, brazil": {
+    "latitude": -7.9959607,
+    "longitude": -35.039335
+  },
+  "presidente prudente, s\u00e3o paulo, brazil": {
+    "latitude": -22.1225167,
+    "longitude": -51.3882528
+  },
+  "medell\u00edn, colombia": {
+    "latitude": 6.2697324,
+    "longitude": -75.6025597
+  },
+  "kigali, rwanda": {
+    "latitude": -1.9534357,
+    "longitude": 30.1140089
+  },
+  "agadir, morocco": {
+    "latitude": 30.4205162,
+    "longitude": -9.5838532
+  },
+  "marrakesh, morocco": {
+    "latitude": 31.6258257,
+    "longitude": -7.9891608
+  },
+  "kampala, uganda": {
+    "latitude": 0.3177137,
+    "longitude": 32.5813539
+  },
+  "wroc\u0142aw, poland": {
+    "latitude": 51.1263106,
+    "longitude": 16.9781963
+  },
+  "kazan, russia": {
+    "latitude": 55.7946485,
+    "longitude": 49.1115022
+  },
+  "cusco, peru": {
+    "latitude": -13.5170887,
+    "longitude": -71.9785356
+  },
+  "sanya, china": {
+    "latitude": 18.2534658,
+    "longitude": 109.5034392
+  },
+  "sidi bel abb\u00e8s, algeria": {
+    "latitude": 34.682268,
+    "longitude": -0.4357555
+  },
+  "maputo, mozambique": {
+    "latitude": -25.966213,
+    "longitude": 32.56745
+  },
+  "surabaya, east java, indonesia": {
+    "latitude": -7.2462836,
+    "longitude": 112.7377674
+  },
+  "banda aceh, aceh, indonesia": {
+    "latitude": 5.5528455,
+    "longitude": 95.3192908
+  },
+  "asunci\u00f3n, paraguay": {
+    "latitude": -25.2800459,
+    "longitude": -57.6343814
+  },
+  "latakia, syria": {
+    "latitude": 35.579874,
+    "longitude": 35.9772699
+  },
+  "zibo, shandong, china": {
+    "latitude": 36.8129564,
+    "longitude": 118.0488401
+  },
+  "weifang, shandong, china": {
+    "latitude": 36.7074551,
+    "longitude": 119.1558166
+  },
+  "yantai, shandong, china": {
+    "latitude": 37.461928,
+    "longitude": 121.4425255
+  },
+  "seremban, malaysia": {
+    "latitude": 2.723099,
+    "longitude": 101.9400601
+  },
+  "fes, morocco": {
+    "latitude": 34.0346534,
+    "longitude": -5.0161926
+  },
+  "lagos, nigeria": {
+    "latitude": 6.4550575,
+    "longitude": 3.3941795
+  },
+  "suez, egypt": {
+    "latitude": 29.974498,
+    "longitude": 32.537086
+  },
+  "toyota city, aichi, japan": {
+    "latitude": 35.083386,
+    "longitude": 137.156412
+  },
+  "abu dhabi, united arab emirates": {
+    "latitude": 24.4538352,
+    "longitude": 54.3774014
+  },
+  "leipzig, germany": {
+    "latitude": 51.3406321,
+    "longitude": 12.3747329
+  },
+  "teresina, brazil": {
+    "latitude": -5.0874608,
+    "longitude": -42.8049571
+  },
+  "campo grande, mato grosso do sul, brazil": {
+    "latitude": -20.4640173,
+    "longitude": -54.6162947
+  },
+  "ulsan, south korea": {
+    "latitude": 35.5391697,
+    "longitude": 129.3119136
+  },
+  "cuiab\u00e1, mato grosso, brazil": {
+    "latitude": -15.5986686,
+    "longitude": -56.0991301
+  },
+  "manaus, amazonas, brazil": {
+    "latitude": -3.1316333,
+    "longitude": -59.9825041
+  },
+  "suwon, south korea": {
+    "latitude": 37.2633325,
+    "longitude": 127.0287472
+  },
+  "pekanbaru, riau, indonesia": {
+    "latitude": 0.5262455,
+    "longitude": 101.4515727
+  },
+  "gda\u0144sk, poland": {
+    "latitude": 54.4288032,
+    "longitude": 18.798327
+  },
+  "pozna\u0144, poland": {
+    "latitude": 52.4006632,
+    "longitude": 16.9197326
+  },
+  "sofia, bulgaria": {
+    "latitude": 42.6977028,
+    "longitude": 23.3217359
+  },
+  "gothenburg, sweden": {
+    "latitude": 57.7072326,
+    "longitude": 11.9670171
+  },
+  "jinzhou, china": {
+    "latitude": 41.494444,
+    "longitude": 121.615278
+  },
+  "c\u00facuta, colombia": {
+    "latitude": 8.0776187,
+    "longitude": -72.4689002
+  },
+  "birmingham, west midlands, england": {
+    "latitude": 52.4948994,
+    "longitude": -1.8518439
+  },
+  "perak, malaysia": {
+    "latitude": 4.812181,
+    "longitude": 100.9797908
+  },
+  "jeonju, south korea": {
+    "latitude": 35.8237631,
+    "longitude": 127.1472805
+  },
+  "curitiba, paran\u00e1, brazil": {
+    "latitude": -25.4295963,
+    "longitude": -49.2712724
+  },
+  "bremen, germany": {
+    "latitude": 53.0758196,
+    "longitude": 8.8071646
+  },
+  "niigata, niigata, japan": {
+    "latitude": 37.9163757,
+    "longitude": 139.0365062
+  },
+  "m\u00e9rida, venezuela": {
+    "latitude": 8.5816963,
+    "longitude": -71.1658075
+  },
+  "daejeon, south korea": {
+    "latitude": 36.3497007,
+    "longitude": 127.3849016
+  },
+  "bordeaux, france": {
+    "latitude": 44.841225,
+    "longitude": -0.5800364
+  },
+  "helsinki, finland": {
+    "latitude": 60.1666204,
+    "longitude": 24.9435408
+  },
+  "goi\u00e2nia, goi\u00e1s, brazil": {
+    "latitude": -16.680882,
+    "longitude": -49.2532691
+  },
+  "cali, colombia": {
+    "latitude": 3.4108435,
+    "longitude": -76.5812127
+  },
+  "chengdu, sichuan, china": {
+    "latitude": 30.659867,
+    "longitude": 104.063315
+  },
+  "phokeng, north west, south africa": {
+    "latitude": -25.575404,
+    "longitude": 27.156484
+  },
+  "san nicol\u00e1s de los garza, mexico": {
+    "latitude": 25.7558021,
+    "longitude": -100.289648
+  },
+  "santa fe, argentina": {
+    "latitude": -30.3154739,
+    "longitude": -61.1645076
+  },
+  "rosario, argentina": {
+    "latitude": -32.9593609,
+    "longitude": -60.6617024
+  },
+  "saint-\u00e9tienne, france": {
+    "latitude": 45.4401467,
+    "longitude": 4.3873058
+  },
+  "polokwane, south africa": {
+    "latitude": -23.9058333,
+    "longitude": 29.4613889
+  },
+  "ciudad guayana, venezuela": {
+    "latitude": 8.3223763,
+    "longitude": -62.6896622
+  },
+  "quito, ecuador": {
+    "latitude": -0.2201641,
+    "longitude": -78.5123274
+  },
+  "turin, piedmont, italy": {
+    "latitude": 45.0677551,
+    "longitude": 7.6824892
+  },
+  "sapporo, hokkaido, japan": {
+    "latitude": 43.061936,
+    "longitude": 141.3542924
+  },
+  "goyang, south korea": {
+    "latitude": 37.6581862,
+    "longitude": 126.8319452
+  },
+  "la paz, bolivia": {
+    "latitude": -16.4955455,
+    "longitude": -68.1336229
+  },
+  "lilongwe, malawi": {
+    "latitude": -13.9875107,
+    "longitude": 33.768144
+  },
+  "nelspruit, mpumalanga, south africa": {
+    "latitude": -25.4729094,
+    "longitude": 30.9772719
+  },
+  "maracaibo, venezuela": {
+    "latitude": 10.6498095,
+    "longitude": -71.6443596
+  },
+  "kashima, ibaraki, japan": {
+    "latitude": 35.9661164,
+    "longitude": 140.6450292
+  },
+  "kumasi, ghana": {
+    "latitude": 6.6985605,
+    "longitude": -1.6233086
+  },
+  "barcelona, spain": {
+    "latitude": 41.3825802,
+    "longitude": 2.177073
+  },
+  "barquisimeto, venezuela": {
+    "latitude": 10.0774374,
+    "longitude": -69.3222293
+  },
+  "mendoza, argentina": {
+    "latitude": -34.5970325,
+    "longitude": -68.7304797
+  },
+  "nolokla, indonesia": {
+    "latitude": -2.5833851,
+    "longitude": 140.5745105
+  },
+  "gwangju, south korea": {
+    "latitude": 35.1594647,
+    "longitude": 126.8515034
+  },
+  "hanoi, vietnam": {
+    "latitude": 21.0283334,
+    "longitude": 105.854041
+  },
+  "liverpool, north west, england": {
+    "latitude": 53.5635292,
+    "longitude": -0.0960303
+  },
+  "s\u00e3o lu\u00eds, maranh\u00e3o, brazil": {
+    "latitude": -2.5295265,
+    "longitude": -44.2963942
+  },
+  "oran, algeria": {
+    "latitude": 35.7044415,
+    "longitude": -0.6502981
+  },
+  "kharkiv, ukraine": {
+    "latitude": 49.9923181,
+    "longitude": 36.2310146
+  },
+  "san sebasti\u00e1n, spain": {
+    "latitude": 43.3224219,
+    "longitude": -1.9838889
+  },
+  "al-wakrah, qatar": {
+    "latitude": 25.0037453,
+    "longitude": 51.4103338
+  },
+  "al-thumama, qatar": {
+    "latitude": 25.234937,
+    "longitude": 51.5614654
+  },
+  "balikpapan, east kalimantan, indonesia": {
+    "latitude": -1.2398711,
+    "longitude": 116.8593379
+  },
+  "gresik, east java, indonesia": {
+    "latitude": -5.7933465,
+    "longitude": 112.6598223
+  },
+  "sochi, russia": {
+    "latitude": 43.5854823,
+    "longitude": 39.723109
+  },
+  "kochi, india": {
+    "latitude": 9.9679032,
+    "longitude": 76.2444378
+  },
+  "malacca, malaysia": {
+    "latitude": 2.3293744,
+    "longitude": 102.2880962
+  },
+  "so kon po, hong kong": {
+    "latitude": 22.2739671,
+    "longitude": 114.1886793
+  },
+  "batu kawan, malaysia": {
+    "latitude": 5.2625962,
+    "longitude": 100.4304555
+  },
+  "accra, ghana": {
+    "latitude": 5.5571096,
+    "longitude": -0.2012376
+  },
+  "kuching, malaysia": {
+    "latitude": 1.5597561,
+    "longitude": 110.345397
+  },
+  "yangon, myanmar": {
+    "latitude": 16.7967129,
+    "longitude": 96.1609916
+  },
+  "\u014dita, japan": {
+    "latitude": 33.1819875,
+    "longitude": 131.4270217
+  },
+  "kuantan, malaysia": {
+    "latitude": 3.7974493,
+    "longitude": 103.3219191
+  },
+  "doha, qatar": {
+    "latitude": 25.3108807,
+    "longitude": 51.5081812
+  },
+  "libreville, gabon": {
+    "latitude": 0.4086518,
+    "longitude": 9.4418849
+  },
+  "karachi, pakistan": {
+    "latitude": 24.8546842,
+    "longitude": 67.0207055
+  },
+  "jamshedpur, india": {
+    "latitude": 22.8015194,
+    "longitude": 86.2029579
+  },
+  "kunming, yunnan, china": {
+    "latitude": 25.0399353,
+    "longitude": 102.7169061
+  },
+  "taizhou, zhejiang, china": {
+    "latitude": 28.6581723,
+    "longitude": 121.4163876
+  },
+  "wuhu, anhui, china": {
+    "latitude": 31.1800568,
+    "longitude": 118.2141777
+  },
+  "huizhou, guangdong, china": {
+    "latitude": 23.1125153,
+    "longitude": 114.4127007
+  }
+}
