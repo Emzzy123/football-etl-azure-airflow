@@ -178,15 +178,14 @@ def write_wikipedia_data(**kwargs):
 
     file_name = ('stadium_cleaned_' + str(datetime.now().date())
                  + "_" + str(datetime.now().time()).replace(":", "_") + '.csv')
-
-    # data.to_csv('data/' + file_name, index=False)
-    # data.to_csv('abfs://footballdataeng@footballdataeng.dfs.core.windows.net/data/' + file_name,
-    #             storage_options={
-    #                 'account_key': os.getenv("AZURE_STORAGE_KEY")
-    #             }, index=False)
     
     os.makedirs('/opt/airflow/data', exist_ok=True)
 
     data.to_csv('/opt/airflow/data/' + file_name, index=False)
+
+    data.to_csv('abfs://footballdataeng@footballdataengsa.dfs.core.windows.net/data/' + file_name,
+                storage_options={
+                    'account_key': os.getenv("AZURE_STORAGE_KEY")
+                }, index=False)
 
     return "OK"

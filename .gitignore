@@ -8,3 +8,5 @@ airflow.db
 logs/
 .DS_Store
 .vscode/
+data/*.csv
+data/geocode_cache.json
